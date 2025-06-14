@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #5383bf;
+    background-color: rgb(125, 182, 52);
     color: black;
     padding-top: 36px;
 }
@@ -42,6 +42,16 @@ body {
     
 }
 
+.sobre-mim {
+    margin-top: 30px;
+    text-align: justify;
+    font-size:20px;
+    
+}
+
+.sobre-mim-titulo {
+    margin-top: 30px;
+}
 .text_info{
     text-align: center;
     color: black;
