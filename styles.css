@@ -22,6 +22,16 @@ body {
 
 }
 
+.icon_navegation li a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon_navegation li a:hover{
+    color: darkcyan;
+    
+}
+
 .intro img {
     width: 200px;
     height: 200px;
