@@ -65,6 +65,14 @@ body {
     
 }
 
+.icon_navegation {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
 .intro img {
     width: 200px;
     height: 200px;
@@ -103,9 +111,9 @@ body {
 .texto-sobre-mim {
     color: black;
     text-align: justify;
-    word-wrap: break-word;
+    /*word-wrap: break-word;*/
     font-size: 20px;
-    max-width: 90vw;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 10px;
    
@@ -125,32 +133,32 @@ body {
     gap: 20px;
     padding-block: 20px;
     padding-inline: 20px;
-    width: 100%;
     max-width: 100%;
     box-sizing: border-box;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    width: 280px;
-    min-height: 100px;
-    max-height: 580px;
-    padding: 20px;
-    background-color: #faebc1;
-    color: black;
-    border-radius: 12px;
-    scroll-snap-align: start;
-    box-shadow: 0 4px 10px rgb(0,0,0,0.2);
-
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: clamp(240px, 30vw, 280px);
+  min-height: 100px;
+  max-height: 580px;
+  padding: 20px;
+  background-color: #faebc1;
+  color: black;
+  border-radius: 12px;
+  scroll-snap-align: start;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
 }
+
 
 @media (max-width: 600px) {
   .card {
     width: 90%;
     margin: 0 auto;
-    min-width: unset;
+    min-width: 90%;
     max-width: 100%;
     margin: 0 auto;
   }
@@ -274,5 +282,5 @@ body {
     align-items: center;
     justify-content: center;
     padding:10px;
-    width: 100%;   
+    max-width: 100%;   
 }
