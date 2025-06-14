@@ -12,6 +12,27 @@ body {
     color: white;
 
 }
+.rodape {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 90px;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.menu-rodape {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.menu-rodape a {
+  color: white;
+  text-decoration: none;
+}
 
 .icon_navegation{
     display: flex;
@@ -46,12 +67,18 @@ body {
     margin-top: 30px;
     text-align: justify;
     font-size:20px;
-    
+    max-width: 900px;
 }
 
 .sobre-mim-titulo {
     margin-top: 30px;
 }
+
+.title-project{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
 .text_info{
     text-align: center;
     color: black;
@@ -114,6 +141,41 @@ body {
     margin: 0 auto;
     border-radius:8px;
 }
+
+.secao-projetos {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.card-projeto {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-projeto img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-projeto a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
 
 .intro {
     display: flex;
