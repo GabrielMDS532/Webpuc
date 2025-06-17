@@ -1,16 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background-color: rgb(125, 182, 52);
+    background-color: rgb(222, 195, 37);
     color: black;
     padding-top: 36px;
     overflow: unset;
 }
 
-.body sobre-mim{
-  align-items: center;
+.sobre-mim{
+  text-align: justify;
 }
 
 * {
