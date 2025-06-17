@@ -8,6 +8,11 @@ body {
     padding-top: 36px;
     overflow: unset;
 }
+
+.body sobre-mim{
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -128,11 +133,10 @@ body {
 
 .carrocel-materias {
     display: flex;
+    flex-direction: row;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     gap: 20px;
-    padding-block: 20px;
-    padding-inline: 20px;
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -141,7 +145,7 @@ body {
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: justify;
   width: clamp(240px, 30vw, 280px);
   min-height: 100px;
   max-height: 580px;
@@ -152,6 +156,7 @@ body {
   scroll-snap-align: start;
   box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
 }
+
 
 
 @media (max-width: 600px) {
@@ -176,6 +181,7 @@ body {
   padding: 40px 20px;
   background-color: #f4f4f4;
   text-align: center;
+  border-radius: 14px;
 }
 
 .card-projeto {
@@ -238,7 +244,7 @@ body {
   gap: 15px;
 }
 
-.form-contato input,
+
 .form-contato textarea {
   padding: 12px;
   border-radius: 8px;
