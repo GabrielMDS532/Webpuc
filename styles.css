@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #e9cb6f;
-    /*color: black;*/
     padding-top: 36px;
     overflow: unset;
 }
