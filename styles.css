@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(222, 195, 37,0.85);
+    background-color: #e9cb6f;
     color: black;
     padding-top: 36px;
     overflow: unset;
